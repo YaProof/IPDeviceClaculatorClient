@@ -5,11 +5,11 @@ export default class Auth {
     this.#client = client;
   }
 
-  sigin(login, password) {
+  async sigin(login, password) {
     this.#client.sigin(login, password);
   }
 
-  logout() {
+  async logout() {
     this.#client.logout();
   }
 };

@@ -5,11 +5,11 @@ export default class Components {
     this.#client = client;
   }
 
-  getMotherboard() {
+  async getMotherboard() {
     this.#client.get('/motherboard');
   }
 
-  getRAM() {
+  async getRAM() {
     this.#client.get('/ram');
   }
 };
