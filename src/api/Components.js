@@ -6,10 +6,14 @@ export default class Components {
   }
 
   async getMotherboard() {
-    this.#client.get('/motherboard');
+    return this.#client.get('/motherboard');
   }
 
   async getRAM() {
-    this.#client.get('/ram');
+    return this.#client.get('/ram');
+  }
+
+  async appendRAM(data) {
+    return this.#client.post('/ram', data);
   }
 };
