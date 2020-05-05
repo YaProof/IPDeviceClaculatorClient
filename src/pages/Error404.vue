@@ -7,13 +7,13 @@
       >
     </p>
     <p class="text-faded">
-      Sorry, nothing here...<strong>(404)</strong>
+      Извините, не удалось найти страницу...<strong>(404)</strong>
     </p>
     <q-btn
       color="secondary"
       style="width:200px;"
       to="/"
-      label="Go back"
+      label="Вернуться на главную"
     />
   </div>
 </template>
