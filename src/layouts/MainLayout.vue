@@ -6,7 +6,7 @@
           Калькулятор IP-видеокамер
         </q-toolbar-title>
 
-        <q-tabs shrink inline-label>
+        <q-tabs shrink inline-label no-caps>
           <q-route-tab
             v-for="(item, index) in items"
             :key="index"
